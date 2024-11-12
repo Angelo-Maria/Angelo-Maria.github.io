@@ -1,0 +1,51 @@
+.topnav {
+    overflow: hidden;
+    background-color: floralwhite;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: forestgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+}
+  
+.topnav a:hover {
+    border-bottom: 3px solid forestgreen;
+}
+  
+.topnav a.active {
+    border-bottom: 3px solid forestgreen;
+}
+  
+.bottomnav {
+    overflow: hidden;
+    background-color: floralwhite;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+.bottomnav a {
+    float: left;
+    display: block;
+    color: forestgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.bottomnav a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+  
+.bottomnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
