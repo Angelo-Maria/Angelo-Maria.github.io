@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color: floralwhite;
+    background-color: antiquewhite;
 }
   
 .topnav a {
@@ -38,14 +38,17 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    border-bottom: 3px solid transparent;
 }
   
 .bottomnav a:hover {
-    background: #f1f1f1;
-    color: black;
+    border-bottom: 3px solid forestgreen;
+    /*background: #f1f1f1;
+    color: black;*/
 }
   
 .bottomnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    border-bottom: 3px solid forestgreen;
+    /*background-color: #04AA6D;
+    color: white;*/
 }
