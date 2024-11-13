@@ -61,7 +61,11 @@ body{
     background-color: floralwhite;
 }
 
-header{
-    background-color: green;
+.section-peach {
+    background-color: peachpuff;
+}
+
+.section-green {
+    background-color: rgba(34, 139, 34, 0.514);
 }
 
