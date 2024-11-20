@@ -15,23 +15,24 @@
     font-size: 30px;
 }
 
-nav {
-    /*height: 100px;*/
+/* nav {
+    /*height: 100px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background: wheat;
-}
+} */
 
-/*a {
+
+/* a {
     display: inline-block;
     height: 60px;
     width:150px;
     text-align: center;
     background-color: rgb(232, 226, 215);
 }
-*/
+
 nav a{
     text-decoration: none;
     text-align: center;
@@ -39,6 +40,7 @@ nav a{
     font-size: 20px;
     color: darkgreen;
 }
+*/
 /*
 li{
     background-color: wheat;
@@ -69,3 +71,31 @@ body{
     background-color: rgba(34, 139, 34, 0.514);
 }
 
+/* prova per div flex (class row) che contiene 2 diverse div (class col-md-5 e col-md-7) una a fianco all'altra*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-5, .col-md-7 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 0 0 41.66666667%;
+        max-width: 41.66666667%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-7 {
+        flex: 0 0 58.33333333%;
+        max-width: 58.33333333%;
+    }
+}
