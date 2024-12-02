@@ -1,18 +1,17 @@
 .flex-container {
     display: flex;
-    height: 200px;
-    align-items: center;
+    /*height: 200px;*/
+    align-items: right;
     flex-direction: column;
-    background-color: #f1f1f1;
   }
   
 .flex-container > div {
-    background-color: #f1f1f1;
     width: 100px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 /* nav {
@@ -61,16 +60,33 @@ ul{
 body{
     /* background-color: antiquewhite; */
     background-color: floralwhite;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
 }
 
 .section-peach {
     background-color: peachpuff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-antiquewhite {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-green {
     background-color: rgba(34, 139, 34, 0.514);
 }
 
+.mezzacolonna {
+    width: 50%;
+    text-align: center;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    */
+    }
 /* prova per div flex (class row) che contiene 2 diverse div (class col-md-5 e col-md-7) una a fianco all'altra*/
 .row {
     display: flex;
@@ -81,7 +97,7 @@ body{
 
 .col-md-5, .col-md-7 {
     position: relative;
-    width: 100%;
+    width: 50%;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -99,3 +115,6 @@ body{
         max-width: 58.33333333%;
     }
 }
+
+/* style="font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;"
+*/
