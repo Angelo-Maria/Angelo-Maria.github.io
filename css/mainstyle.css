@@ -60,6 +60,7 @@ ul{
 body{
     /* background-color: antiquewhite; */
     background-color: floralwhite;
+    font-family: 'Playfair Display', sans-serif;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 
 }
@@ -68,7 +69,7 @@ body{
     background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
 }
 
 .section-antiquewhite {
@@ -96,8 +97,19 @@ body{
     margin-left: -15px;
 }
 
+.title {
+    text-align: center;
+}
+
+.imgsx {
+    align-items: left;
+}
 .col-md-5, .col-md-7 {
     position: relative;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
     width: 90%;
     text-align: center;
     padding-right: 15px;
