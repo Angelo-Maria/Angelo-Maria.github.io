@@ -68,6 +68,7 @@ body{
     background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .section-antiquewhite {
@@ -97,9 +98,11 @@ body{
 
 .col-md-5, .col-md-7 {
     position: relative;
-    width: 50%;
+    width: 90%;
+    text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
