@@ -119,7 +119,7 @@ body{
     width: 30%;
 }
 
-.col-md-5, .col-md-7 {
+.col-md-5 {
     position: relative;
     width: 90%;
     text-align: center;
@@ -128,8 +128,16 @@ body{
     padding-bottom: 40px;
 }
 
+.col-md-title {
+    position: relative;
+    width: 90%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 @media (min-width: 768px) {
-    .col-md-5 {
+    .col-md-5, .col-md-title {
         flex: 0 0 41.66666667%;
         max-width: 41.66666667%;
     }
