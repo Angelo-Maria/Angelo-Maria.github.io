@@ -155,6 +155,10 @@ body{
 /* classes for some text */
 .indirizzo {
     font-style: italic;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    color: black;
 }
+
 
 /* list of unicode SYMBOLS https://tutorialzine.com/2014/12/you-dont-need-icons-here-are-100-unicode-symbols-that-you-can-use */
