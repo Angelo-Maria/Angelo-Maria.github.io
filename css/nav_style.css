@@ -11,7 +11,7 @@
     display: block;
     color: forestgreen;
     text-align: center;
-    padding: 14px 22px;
+    padding: 14px 22px; /* 22px for phone view*/
     text-decoration: none;
     font-size: 1.1em;
     border-bottom: 3px solid transparent;
@@ -46,13 +46,9 @@
   
 .bottomnav a:hover {
     border-bottom: 3px solid forestgreen;
-    /*background: #f1f1f1;
-    color: black;*/
 }
   
 .bottomnav a.active {
     border-bottom: 3px solid forestgreen;
-    /*background-color: #04AA6D;
-    color: white;*/
 }
 

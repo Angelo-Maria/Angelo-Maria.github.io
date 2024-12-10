@@ -152,3 +152,9 @@ body{
 
 /* style="font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;"
 */
+/* classes for some text */
+.indirizzo {
+    font-style: italic;
+}
+
+/* list of unicode SYMBOLS https://tutorialzine.com/2014/12/you-dont-need-icons-here-are-100-unicode-symbols-that-you-can-use */
