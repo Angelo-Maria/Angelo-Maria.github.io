@@ -74,11 +74,17 @@ body{
     padding-bottom: 80px;
 }
 
-.section-peach {
+.section-peach-center {
     background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.section-peach {
+    background-color: peachpuff;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-antiquewhite {
