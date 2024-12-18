@@ -166,5 +166,8 @@ body{
     color: black;
 }
 
+.indirizzo:visited {
+    text-decoration: none;
+}
 
 /* list of unicode SYMBOLS https://tutorialzine.com/2014/12/you-dont-need-icons-here-are-100-unicode-symbols-that-you-can-use */
