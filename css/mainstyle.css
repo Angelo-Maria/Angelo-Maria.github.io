@@ -99,6 +99,25 @@ body{
     flex-wrap: wrap;
 }
 
+.section-green-center {
+    background-color: rgba(34, 139, 34, 0.514);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* container using grid for images of Brescia*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: visible;
+}
+  
+.container > div {
+    text-align: center;
+    overflow: visible;
+}
+
 .mezzacolonna {
     width: 50%;
     text-align: center;
