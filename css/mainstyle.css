@@ -110,12 +110,12 @@ body{
 .container {
     display: grid;
     grid-template-columns: auto auto;
-    overflow: visible;
+    overflow: hidden;
 }
   
 .container > div {
     text-align: center;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .mezzacolonna {
