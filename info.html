@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair Display'>
+    <script src="js/functions.js"></script>
 </head>
-<body> 
+<body onload="pasteDate()"> 
     <header>
         <nav class="topnav">
             <a href="index.html">Home</a>
@@ -22,19 +23,23 @@
     </header>
     <main class=".flex-container">
         <section class="section-green" style="padding-left: 16px; padding-right: 20px;">
-            <div>
+            <div id="Parcheggio-info">
+                <h2>Parcheggio</h2>
+                <h4>Per la cerimonia</h4>
+                <p> Il Duomo si trova in ZTL. Il parcheggio più vicino a pagamento è il parcheggio 
+                    <a class="indirizzo" href="https://www.bresciamobilita.it/parking/parcheggi-in-struttura">Vittoria</a>. 
+                    Tariffe: 1<sup>o</sup> ora o frazione 3,00 €; 2<sup>o</sup> e 3<sup>o</sup> ora o frazione 2,40€/ora.
+                    Per chi dorme in centro storico, il Duomo è facilmente raggiungibile a piedi. 
+                </p>
+                <p><strong>Per il ricevimento</strong>: Villa Fassati Barba ha un ampio parcheggio in loco.
+                </p>
+            </div>
+            <div id="Navetta-info">
                 <h2>Servizio navetta</h2>
-                <p>Servizio navetta informazioni 
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni
-                Servizio navetta informazioni                                
-                Servizio navetta informazioni
+                <p> Servizio navetta informazioni 
+                    Servizio navetta informazioni
+                    Servizio navetta informazioni                                
+                    Servizio navetta informazioni
                 </p>
             </div>
         </section>
@@ -43,11 +48,11 @@
                 <h2>Dove dormire</h2>
                 <p><strong style="color: forestgreen;">Centro Paolo VI</strong> - Via Calini Gezio 30, Brescia (25121) 
                     - Tel. 030 3773511 <br>
-                    Albergo in centro, vicino a Largo Torrelunga (partenza della navetta) con parcheggio.
+                    Albergo in centro storico, vicino a Largo Torrelunga (partenza della navetta) con parcheggio.
                 </p>
                 <p><strong style="color: forestgreen;">Albergo Orologio</strong> - Via Cesare Beccaria 17, Brescia (25121) 
                     - Tel. 030 3755411 <br>
-                    Albergo dietro a Piazza Duomo, in ZTL.
+                    Albergo a 100m da Piazza Duomo, in ZTL.
                 </p>
                 <p><strong style="color: forestgreen;">B&B Hotel Brescia</strong> - Piazzale Cremona 20, Brescia (25121) 
                     - Booking <br>
@@ -55,7 +60,7 @@
                 </p> 
                 <p><strong style="color: forestgreen;">Albergo la Svolta Brescia</strong> - Vicolo delle Nottole 2/A, Brescia (25122) 
                     - Booking <br>
-                    Albergo con 12 camere vicino a Piazza Duomo. La struttura offre un parcheggio privato a 10 EUR al giorno nelle vicinanze.
+                    Albergo con 12 camere a 500m da Piazza Duomo. La struttura offre un parcheggio privato a 10€ al giorno nelle vicinanze.
                 </p>                             
                 <p></p>    
                 <br>
@@ -119,6 +124,7 @@
     </main>
     <hr>
     <footer style="padding-left: 6px; padding-top: 0.5em; font-size: 0.9em;">
+        <p>Informazioni aggiornate: <span id="data_aggiornamento"></span></p>
         <p>Angelo <i class="material-icons" style="font-size: 14px;">phone</i> 3385329221 &nbsp&#x2709 angelo.bratta@outlook.it</p>
         <p>Maria <i class="material-icons" style="font-size: 14px;">phone</i> 3333242601 &nbsp&nbsp&#x2709 maria1.lazzaroni@gmail.com</p>
     </footer>    
