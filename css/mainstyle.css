@@ -118,6 +118,14 @@ body{
     overflow: hidden;
 }
 
+.container .text {
+    position: relative;
+    top: -50%;
+    color: white; /* Text color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .mezzacolonna {
     width: 50%;
     text-align: center;

@@ -25,8 +25,7 @@
         <section class="section-green" style="padding-left: 16px; padding-right: 20px;">
             <div id="Parcheggio-info">
                 <h2>Parcheggio</h2>
-                <h4>Per la cerimonia</h4>
-                <p> Il Duomo si trova in ZTL. Il parcheggio più vicino a pagamento è il parcheggio 
+                <p><strong>Per la cerimonia</strong>: il Duomo si trova in ZTL. Il parcheggio più vicino a pagamento è il parcheggio 
                     <a class="indirizzo" href="https://www.bresciamobilita.it/parking/parcheggi-in-struttura">Vittoria</a>. 
                     Tariffe: 1<sup>o</sup> ora o frazione 3,00 €; 2<sup>o</sup> e 3<sup>o</sup> ora o frazione 2,40€/ora.
                     Per chi dorme in centro storico, il Duomo è facilmente raggiungibile a piedi. 
@@ -62,9 +61,8 @@
                     - Booking <br>
                     Albergo con 12 camere a 500m da Piazza Duomo. La struttura offre un parcheggio privato a 10€ al giorno nelle vicinanze.
                 </p>                             
-                <p></p>    
-                <br>
-                <p><a href="index.html#section-inforicevimento">go to section ricevimento</a></p>
+                <!-- <br> -->
+                <p><a href="index.html#section-inforicevimento">Vedi le informazioni cerimonia & ricevimento</a></p>
             </div>
         </section>
         <section class="section-green" style="padding-left: 16px; padding-right: 20px; padding-bottom: 15px;">
@@ -74,40 +72,41 @@
             </div>    
             <div class="container">
                 <div>
-                    <img src="figures/Brescia_/Brescia_Castello.jpg" width="80%" alt="Il Castello di Brescia visto dal centro città">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_Castello.jpg" width="80%" alt="Il Castello di Brescia visto dal centro città" onmouseover="upDate(this)" onmouseout="unDo(this)">
+                    <!-- <div class="text">some textS</div> -->
                     <p>Castello di Brescia</p>
                     <!-- <p>Castello di Brescia, la fortezza medievale che domina la città.</p> -->
                 </div>
                 <div>    
-                    <img src="figures/Brescia_/Brescia_piazzaLoggia.png" width="80%" alt="La torre dell'orologio in Piazza della Loggia">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_piazzaLoggia.png" width="80%" alt="La torre dell'orologio in Piazza della Loggia" onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Piazza Loggia</p>
                     <!-- <p>Piazza Loggia, una delle piazze più iconiche di Brescia, sede del Comune.</p> -->
                 </div>
                 <div>    
-                    <img src="figures/Brescia_/Brescia_TempioCapitolino.jpg" width="80%" alt="Resti del Tempio Capitolino di epoca romana">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_TempioCapitolino.jpg" width="80%" alt="Resti del Tempio Capitolino di epoca romana" onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Capitolium e teatro romano</p>
                     <!-- <p>Capitolium di Brixia, i resti moderni del Tempio Capitolino, con le antiche colonne.</p> -->
                 </div>
                 <div>
-                    <img src="figures/Brescia_/Brescia_Duomo.jpg" width="80%" alt="Antica cattedrale di Brescia in stile romanico">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_Duomo.jpg" width="80%" alt="Antica cattedrale di Brescia in stile romanico" onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Duomo Vecchio</p>    
                     <!-- <p>Duomo Vecchio, la Cattedrale in stile romanico.</p>     -->
                 </div>
                 <div>
-                    <img src="figures/Brescia_/Brescia_reDesiderio.jpg" width="80%" alt="Croce di Re Desiderio al museo di Santa Giulia">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_reDesiderio.jpg" width="80%" alt="Croce di Re Desiderio al museo di Santa Giulia" onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Museo Santa Giulia</p>
                 </div>
                 <div>
-                    <img src="figures/Brescia_/Brescia_BibliotecaQueriniana.jpg" width="80%" alt="Interni della biblioteca Queriniana">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_BibliotecaQueriniana.jpg" width="80%" alt="Interni della biblioteca Queriniana" onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Biblioteca Queriniana</p>    
                 </div>
                 <div>
-                    <img src="figures/Brescia_/Brescia_LagoDiGarda.jpg" width="80%" alt=" Castello di Brescia">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_LagoDiGarda.jpg" width="80%" alt="Lago di Garda: Desenzano, Sirmione, Punta San Vigilio." onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Lago di Garda</p>
                     <!-- <p>Lago di Garda, a mezz'ora del centro città, Desenzano, Sirmione, Punta San Vigilio.</p> -->
                 </div>
                 <div>
-                    <img src="figures/Brescia_/Brescia_LagoIseo.jpg" width="80%" alt=" Castello di Brescia">
+                    <img class="imageinfo" src="figures/Brescia_/Brescia_LagoIseo.jpg" width="80%" alt="Lago d'Iseo e Franciacorta, famosa per la produzione di vini." onmouseover="upDate(this)" onmouseout="unDo(this)">
                     <p>Lago d'Iseo e Franciacorta</p>    
                     <!-- <p>Lago d'Iseo e Franciacorta, famosa per la produzione di vini.</p>     -->
                 </div>
@@ -127,6 +126,6 @@
         <p>Informazioni aggiornate: <span id="data_aggiornamento"></span></p>
         <p>Angelo <i class="material-icons" style="font-size: 14px;">phone</i> 3385329221 &nbsp&#x2709 angelo.bratta@outlook.it</p>
         <p>Maria <i class="material-icons" style="font-size: 14px;">phone</i> 3333242601 &nbsp&nbsp&#x2709 maria1.lazzaroni@gmail.com</p>
-    </footer>    
+    </footer>   
 </body>
 </html>
