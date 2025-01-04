@@ -74,6 +74,12 @@ body{
     padding-bottom: 80px;
 }
 
+.section-peach {
+    background-color: peachpuff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .section-peach-center {
     background-color: peachpuff;
     display: flex;
@@ -81,10 +87,12 @@ body{
     justify-content: center;
 }
 
-.section-peach {
+
+.section-peach-start {
     background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .section-antiquewhite {
@@ -169,6 +177,12 @@ body{
     padding-left: 15px;
 }
 
+.col-md-3 {
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .col-md-5, .col-md-title {
         flex: 0 0 41.66666667%;
@@ -176,12 +190,27 @@ body{
     }
 }
 
-@media (min-width: 768px) {
-    .col-md-7 {
+@media (min-width: 768px) { /*se lo schermo è maggiore di 768px*/
+    .col-md-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 658px) { /*se lo schermo è minore di 658px*/
+    .col-md-3 {
+        flex: 0 0 41%;
+        max-width: 41%;
+    }
+}
+/* @media (min-width: 768px) {
+    .col-md-3 {
         flex: 0 0 58.33333333%;
         max-width: 58.33333333%;
     }
-}
+} */
+
+
 
 /* style="font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;"
 */
