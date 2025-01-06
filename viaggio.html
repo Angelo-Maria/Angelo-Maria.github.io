@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair Display'>
+    <script src="js/functionsViaggio.js"></script>
 </head>
-<body> 
+<body onload="pickImage()"> 
     <header>
         <nav class="topnav">
             <a href="index.html">Home</a>
@@ -30,13 +31,24 @@
                     ma se vi facesse piacere contribuire al nostro viaggio di nozze potete farlo qui. </p>
             </div>
         </section>
-        <section class="section-green" style="padding-left: 16px; padding-right: 16px; padding-bottom: 50px;">
-            <div>
-                <h2>Botswana e Zimbabwe</h2>
-                <img src="figures/VictoriaFalls3ok.jpg" alt="Victoria Falls" width="30%" style="margin: 10px">
-                <img src="figures/OkavangoDelta.jpg" alt="Okavango Delta" width="30%" style="margin: 10px">
-                <img src="figures/ChobeNationalPark.jpg" alt="Chobe Park" width="30%" style="margin: 10px">
+        <!-- Viaggio foto  -->
+        <section class="section-green" style="padding-left: 16px; padding-right: 16px;">
+            <h2>Botswana e Zimbabwe</h2>
+        </section>
+        <section class="section-green-spacearound" style="padding-left: 16px; padding-right: 16px; padding-bottom: 50px;">
+            <div class="col-md-2">
+                <img id="Botswana1" src alt="" width="100%">
             </div>
+            <div class="col-md-2">    
+                <img id="Botswana2" src="" alt="" width="100%">
+            </div>
+            <!-- <div class="col-md-2">
+                <img src="figures/VictoriaFalls3ok.jpg" alt="Victoria Falls" width="100%">
+            </div>
+            <div class="col-md-2">    
+                <img src="figures/OkavangoDelta.jpg" alt="Okavango Delta" width="100%">
+                <img src="figures/ChobeNationalPark.jpg" alt="Chobe Park" width="30%" style="margin: 10px">
+            </div> -->
         </section>
         <section class="section-peach" style="padding-left: 16px; padding-right: 16px;">
             <h2>Madagascar</h2>

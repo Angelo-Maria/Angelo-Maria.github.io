@@ -35,30 +35,10 @@ function unDo(picFocus){
 }
 //document.getElementsByTagName('p')
 
-// Imposta la data di destinazione
-    const targetDate = new Date("2025-05-24T16:00:00").getTime();
-    const interval = setInterval(() => {
-        const now = new Date().getTime(); // Ottieni la data e l'ora attuali
-        const timeLeft = targetDate - now; // Calcola il tempo rimanente
-        // Calcola giorni, ore, minuti e secondi:
-        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-        // Mostra il risultato nel div con id="countdown"
-        document.getElementById("countdown").innerHTML = 
-        `${days} giorni, ${hours} ore, ${minutes} minuti, ${seconds} secondi`;
-        // Se il countdown è finito
-        if (timeLeft < 0) {
-            clearInterval(interval);
-            document.getElementById("countdown").innerHTML = "Il countdown è terminato!";
-        }
-    }, 1000);   
-
 function pickImage(){
-    fig_botswana = ["figures/VictoriaFalls3ok.jpg",
-        "figures/OkavangoDelta.jpg",
-        "figures/ChobeNationalPark.jpg"]
+    fig_botswana = ["VictoriaFalls3ok.jpg",
+        "OkavangoDelta.jpg",
+        "ChobeNationalPark.jpg"]
     // fig_madagascar = ["figures/NosyBe.jpg",
     //         "figures/NosyBe2.jpg",
     //         "figures/NosyAntsoha.jpg"]    
@@ -67,13 +47,18 @@ function pickImage(){
         do {
             random_b2 = Math.floor(Math.random() * fig_botswana.length);
         } while (random_b2 === random_b);        
-    console.log(random_b);
-    console.log(random_b2);
-    let randomImg_b = fig_botswana[random_b,random_b2];
+    // console.log(random_b);
+    // console.log(random_b2);
+    let randomImg_b = "figures/" + fig_botswana[random_b]
+    let randomImg_b2 = "figures/" + fig_botswana[random_b2]
     // randomImg_b = "images/" + options[Math.floor(Math.random() * options.length)];
     // let randomImg_m = fig_madagascar[Math.floor(Math.random() * fig_madagascar.length)];
-    img = document.querySelector("#Botswana1")
-    img.setAttribute("src",randomImg_b[0])
+    // console.log(randomImg_b)
+    // console.log(randomImg_b[0]) //sbagliato
+    // console.log(typeof(randomImg_b[0])) //
+    // console.log(randomImg_b[1]) //vuoto
+    img = document.getElementById('Botswana1')
+    img.setAttribute("src",randomImg_b)
     img = document.querySelector("#Botswana2")
-    img.setAttribute("src",randomImg_b[1])
+    img.setAttribute("src",randomImg_b2)
     }    

@@ -114,6 +114,14 @@ body{
     justify-content: center;
 }
 
+.section-green-spacearound {
+    background-color: rgba(34, 139, 34, 0.514);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
 /* container using grid for images of Brescia*/
 .container {
     display: grid;
@@ -180,6 +188,12 @@ body{
 .col-md-3 {
     position: relative;
     width: 30%;
+    text-align: center;
+}
+
+.col-md-2 {
+    position: relative;
+    width: 45%;
     text-align: center;
 }
 
