@@ -212,7 +212,7 @@ body{
 }
 /* 136/342*/
 @media (max-width: 658px) { /*se lo schermo è minore di 658px*/
-    .col-md-3 {
+    .col-md-3, .col-md-2 {
         flex: 0 0 46%;
         max-width: 46%;
     }

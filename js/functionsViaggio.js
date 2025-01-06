@@ -59,6 +59,6 @@ function pickImage(){
     // console.log(randomImg_b[1]) //vuoto
     img = document.getElementById('Botswana1')
     img.setAttribute("src",randomImg_b)
-    img = document.querySelector("#Botswana2")
+    img = document.querySelector('Botswana2')
     img.setAttribute("src",randomImg_b2)
     }    
