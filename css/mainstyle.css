@@ -88,11 +88,11 @@ body{
 }
 
 
-.section-peach-start {
+.section-peach-spacearound {
     background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .section-antiquewhite {
