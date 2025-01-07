@@ -39,7 +39,7 @@ function pickImage(){
     fig_botswana = ["VictoriaFalls3ok.jpg",
         "OkavangoDelta.jpg",
         "ChobeNationalPark.jpg"]
-    fig_madagascar = ["NosyBe.jpg",
+    fig_madagascar = ["NosyBeSpiaggia.jpg",
         "NosyBe2.jpg",
         "NosyAntsoha.jpg"]    
     let random_b = Math.floor(Math.random() * fig_botswana.length);
