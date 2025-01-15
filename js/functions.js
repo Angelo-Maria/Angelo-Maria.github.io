@@ -58,28 +58,36 @@ const interval = setInterval(() => {
 //     return now;
 // }
 
-function pickImage(){
-    fig_botswana = ["figures/VictoriaFalls3ok.jpg",
-        "figures/OkavangoDelta.jpg",
-        "figures/ChobeNationalPark.jpg"]
-    // fig_madagascar = ["figures/NosyBe.jpg",
-    //         "figures/NosyBe2.jpg",
-    //         "figures/NosyAntsoha.jpg"]    
-    let random_b = Math.floor(Math.random() * fig_botswana.length);
-    let random_b2;
-        do {
-            random_b2 = Math.floor(Math.random() * fig_botswana.length);
-        } while (random_b2 === random_b);        
-    console.log(random_b);
-    console.log(random_b2);
-    let randomImg_b = fig_botswana[random_b,random_b2];
-    // randomImg_b = "images/" + options[Math.floor(Math.random() * options.length)];
-    // let randomImg_m = fig_madagascar[Math.floor(Math.random() * fig_madagascar.length)];
-    img = document.querySelector("#Botswana1")
-    img.setAttribute("src",randomImg_b[0])
-    img = document.querySelector("#Botswana2")
-    img.setAttribute("src",randomImg_b[1])
-}
+// function pickImage(){
+//     fig_botswana = ["figures/VictoriaFalls3ok.jpg",
+//         "figures/OkavangoDelta.jpg",
+//         "figures/ChobeNationalPark.jpg"]
+//     // fig_madagascar = ["figures/NosyBe.jpg",
+//     //         "figures/NosyBe2.jpg",
+//     //         "figures/NosyAntsoha.jpg"]    
+//     let random_b = Math.floor(Math.random() * fig_botswana.length);
+//     let random_b2;
+//         do {
+//             random_b2 = Math.floor(Math.random() * fig_botswana.length);
+//         } while (random_b2 === random_b);        
+//     console.log(random_b);
+//     console.log(random_b2);
+//     let randomImg_b = fig_botswana[random_b,random_b2];
+//     // randomImg_b = "images/" + options[Math.floor(Math.random() * options.length)];
+//     // let randomImg_m = fig_madagascar[Math.floor(Math.random() * fig_madagascar.length)];
+//     img = document.querySelector("#Botswana1")
+//     img.setAttribute("src",randomImg_b[0])
+//     img = document.querySelector("#Botswana2")
+//     img.setAttribute("src",randomImg_b[1])
+// }
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.indirizzo').forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer'); // Add for security
+        console.log("set target black");
+    });
+});
 
 document.addEventListener("DOMContentLoaded", () => {
     // need to add DOMContentLoaded to work
