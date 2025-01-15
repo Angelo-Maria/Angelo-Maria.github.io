@@ -276,8 +276,8 @@ label {
 
 input,
 textarea,
-select,
-button {
+/* button, */
+select {
     /* To make sure that all text fields have the same font settings
     By default, text areas have a monospace font */
     font: 1em sans-serif;
