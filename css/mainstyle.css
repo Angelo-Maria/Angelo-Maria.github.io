@@ -153,6 +153,12 @@ body{
     font-weight: bold;
 }
 
+@media (max-width: 768px) { /*se lo schermo è minore di 768px, smartphones*/
+    .container {
+        grid-template-columns: auto;
+    }
+}
+
 .mezzacolonna {
     width: 50%;
     text-align: center;
