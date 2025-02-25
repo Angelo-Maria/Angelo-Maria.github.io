@@ -145,17 +145,22 @@ body{
     overflow: hidden;
 }
 
-.container .text {
+/* .container p {
     position: relative;
     top: -50%;
-    color: white; /* Text color */
+    color: white;
     font-size: 24px;
     font-weight: bold;
-}
+} */
 
 @media (max-width: 768px) { /*se lo schermo è minore di 768px, smartphones*/
     .container {
         grid-template-columns: auto;
+    }
+    
+    .container p {
+        margin-top: 0.6em;
+        margin-bottom: 2em;
     }
 }
 
