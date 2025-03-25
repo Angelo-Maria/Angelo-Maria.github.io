@@ -1,13 +1,13 @@
 function pasteDate() {
     const d = new Date();
-    document.getElementById('data_aggiornamento').innerHTML = d.toUTCString();
+    //document.getElementById('data_aggiornamento').innerHTML = d.toUTCString();
 }
 
 function upDate(picFocus){
     //passo l'elemento <img>
-    console.log(picFocus.alt);
-    console.log(picFocus.src);
-    console.log(picFocus.style);
+    //console.log(picFocus.alt);
+    //console.log(picFocus.src);
+    //console.log(picFocus.style);
     picFocus.style.opacity = "0.5";
     //picFocus.innerHTML = "Hover over an image belo.";
     //picFocus.style.innerHTML = "Hover over an image belo.";
