@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll('.indirizzo').forEach(link => {
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer'); // Add for security
-        console.log("set target black");
+        // console.log("set target black");
     });
 });
 
