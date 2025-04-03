@@ -1,7 +1,8 @@
 function pickImage(){
     fig_botswana = ["VictoriaFalls3ok.jpg",
         "OkavangoDelta.jpg",
-        "ChobeNationalPark.jpg"]
+        "ChobeNationalPark.jpg",
+        "OkavangoDeltaAnimali.jpg"]
     fig_madagascar = ["NosyBeSpiaggia.jpg",
         "NosyBe2.jpg",
         "NosyAntsoha.jpg"]    
@@ -35,7 +36,6 @@ function pickImage(){
     img.setAttribute("src",randomImg_m)
     img = document.getElementById('Madagascar2')
     img.setAttribute("src",randomImg_m2)
-    console.log(randomImg_m)
-    console.log(randomImg_b)
-
+    // console.log(randomImg_m)
+    // console.log(randomImg_b)
 }    
