@@ -50,7 +50,7 @@ const interval = setInterval(() => {
     // Se il countdown è finito
     if (timeLeft < 0) {
         clearInterval(interval);
-        document.getElementById("countdown").innerHTML = "Il countdown è terminato!";
+        document.getElementById("countdown").innerHTML = "Il countdown è terminato! <br>Grazie per aver festeggiato con noi il nostro matrimonio";
     }
 }, 1000);   
 
